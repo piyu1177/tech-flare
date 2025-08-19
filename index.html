@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TECH FLARE 2025</title>
+  <style>
+    body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0a0a0a;
+  color: #f5f5f5;
+}
+
+header {
+  background: linear-gradient(to right, #0f0f0f, #1a1a40);
+  border-bottom: 3px solid #00ffe0;
+}
+
+/* Top bar (logos + title) */
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.title-container {
+  text-align: right;
+  color: #fff;
+}
+
+.title-container h1 {
+  font-size: 28px;
+  margin: 0;
+  color: #00f7ff;
+}
+
+.title-container h2 {
+  font-size: 16px;
+  margin: 0;
+  color: #ccc;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: #111;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  gap: 25px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  background: #00f7ff;
+  color: #000;
+}
+
+/* Sections */
+section {
+  padding: 40px 10%;
+}
+
+section h2 {
+  color: #00ffe0;
+  font-size: 2em;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #00ffe0;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.event {
+  margin-bottom: 60px;
+}
+
+.event img {
+  width: 100%;
+  max-width: 600px; /* limit poster size on PC */
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 224, 0.5);
+}
+
+.event p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #ccc;
+  text-align: justify;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #00ffe0;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00bfa5;
+}
+
+.divider {
+  border-top: 2px dashed #444;
+  margin: 50px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: #aaa;
+  border-top: 2px solid #00ffe0;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1024px) {
+  section {
+    padding: 30px 5%;
+  }
+
+  .event img {
+    max-width: 500px;
+  }
+
+  .title-container h1 {
+    font-size: 24px;
+  }
+
+  .title-container h2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .event img {
+    max-width: 100%;
+  }
+
+  section h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    height: 50px;
+  }
+
+  .navbar ul li a {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  section {
+    padding: 20px 5%;
+  }
+
+  .event p {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}
+/*.event h2 {
+  text-align: center;
+  width: 100%;
+}*/
+
+
+
+
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+<!-- Header with Logos and Navigation -->
+<header class="header">
+    <div class="top-bar">
+        <div class="logo-container">
+            <img src="institute_logo.png" alt="Institute Logo" class="logo">
+            <img src="techflare_logo.png" alt="TechFlare Logo" class="logo">
+        </div>
+        <div class="title-container">
+            <h1>TECH FLARE 2025</h1>
+            <h2>Organized by [Your Institute Name]</h2>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#roborace">Robo Race</a></li>
+            <li><a href="#robosoccer">Robo Soccer</a></li>
+            <li><a href="#linefollower">Line Follower</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+  <section>
+    <h2>About the Event</h2>
+    <p>
+      TECH FLARE 2025 is the annual robotics competition featuring thrilling challenges 
+      like Robo Race, Robo Soccer, and Line Follower. Join us to showcase innovation, 
+      creativity, and engineering brilliance.
+    </p>
+  </section>
+
+  <!-- Robo Race -->
+  <section class="event">
+    <h2>Robo Race</h2>
+    <img src="roboreace canva.png" alt="Robo Race Poster">
+    <p>
+      Robo Race is all about speed and control. Participants design robots that 
+      can complete the challenging race track with obstacles in the shortest time.
+    </p>
+    <a href="roborace-rulebook.pdf" class="btn" download>Download Rulebook</a>
+    <div class="divider"></div>
+  </section>
+
+  <!-- Robo Soccer -->
+  <section class="event">
+    <h2>Robo Soccer</h2>
+    <img src="roboreace canva.png" alt="Robo Soccer Poster">
+    <p>
+      Robo Soccer brings the excitement of football with robots. Teams build bots 
+      that can dribble, defend, and score goals in an electrifying match.
+    </p>
+    <a href="robosoccer-rulebook.pdf" class="btn" download>Download Rulebook</a>
+    <div class="divider"></div>
+  </section>
+
+  <!-- Line Follower -->
+  <section class="event">
+    <h2>Line Follower</h2>
+    <img src="roboreace canva.png" alt="Line Follower Poster">
+    <p>
+      The Line Follower event tests precision and logic. Robots must follow a 
+      complex path marked with lines while handling tricky curves and junctions.
+    </p>
+    <a href="linefollower-rulebook.pdf" class="btn" download>Download Rulebook</a>
+    <div class="divider"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TECH FLARE | XYZ Institute of Technology</p>
+  </footer>
+</body>
+</html>
